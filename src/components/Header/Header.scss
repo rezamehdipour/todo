@@ -1,0 +1,15 @@
+#header {
+	height: 100px;
+	color: white;
+	background: radial-gradient(circle, rgba(2, 151, 114, 1) 40%, rgba(39, 253, 199, 1) 100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	.header__title {
+		text-align: center;
+		font-size: 28px;
+		font-weight: bold;
+		cursor: pointer;
+	}
+}

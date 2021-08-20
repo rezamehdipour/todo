@@ -1,0 +1,97 @@
+/* == [- CSS Reset -] == */
+button {
+	font: unset;
+	appearance: none;
+	text-rendering: unset;
+	color: unset;
+	letter-spacing: unset;
+	word-spacing: unset;
+	text-transform: unset;
+	text-indent: unset;
+	text-shadow: unset;
+	display: inline-block;
+	text-align: unset;
+	align-items: unset;
+	cursor: pointer;
+	background-color: unset;
+	outline: none;
+	border: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+	display: block;
+	font: unset;
+	margin-block-start: unset;
+	margin-block-end: unset;
+	margin-inline-start: unset;
+	margin-inline-end: unset;
+}
+a {
+	color: unset;
+	cursor: pointer;
+	text-decoration: none;
+}
+aside {
+	display: block;
+}
+ul {
+	display: block;
+	list-style-type: unset;
+	margin-block-start: unset;
+	margin-block-end: unset;
+	margin-inline-start: unset;
+	margin-inline-end: unset;
+	padding-inline-start: unset;
+}
+li {
+	list-style: none;
+}
+span {
+	pointer-events: none;
+}
+svg {
+	display: block;
+}
+input[type="password"],
+input[type="text"] {
+	display: inline-block;
+	text-align: start;
+	cursor: text;
+	-webkit-writing-mode: horizontal-tb !important;
+	text-rendering: unset;
+	color: unset;
+	letter-spacing: unset;
+	word-spacing: unset;
+	text-transform: unset;
+	text-indent: unset;
+	text-shadow: unset;
+	appearance: none;
+	background-color: unset;
+	-webkit-rtl-ordering: logical;
+	margin: 0;
+	font: unset;
+	padding: 0;
+	border-width: unset;
+	border-style: unset;
+	border-color: unset;
+	border-image: unset;
+}
+input:focus {
+	border: none;
+	outline: none;
+}
+
+/* remove arrows from input[type=number]  */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+	-moz-appearance: textfield;
+}

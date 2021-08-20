@@ -1,0 +1,41 @@
+@import url("./reset.css");
+
+/* ————— Predefined Classes ————— */
+.flex {
+	display: flex;
+}
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.opacity-5 {
+	opacity: 0.5;
+}
+
+/* ————— Actual CSS ————— */
+:root {
+	--c1: #d1fae5;
+	--c2: #a7f3d0;
+	--c3: #6ee7b7;
+	--c4: #34d399;
+	--c5: #10b981;
+	--c6: #059669;
+	--c7: #047857;
+	--c8: #065f46;
+	--c9: #064e3b;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: "Nunito", sans-serif;
+	background-color: rgb(245, 245, 245);
+}
